@@ -3,8 +3,8 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 const LandingPage = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
-      <div className="heading mt-60 px-20">
+    <div className="w-full h-auto pb-32 bg-white pt-1">
+      <div className="heading mt-52 px-20">
         {["We Create", "EYE Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker">
@@ -20,18 +20,18 @@ const LandingPage = () => {
         })}
       </div>
 
-      <div className="border-t border-zinc-800 mt-44 flex justify-between items-center py-5 px-20">
+      <div className="border-t border-zinc-800  mt-44 flex justify-between items-center py-5 px-20">
         {[
           "For public and private companies",
           "From the first pitch to IPO",
         ].map((item, index) => (
-          <p className="text-xl font-light tracking-tight leading-none">
+          <p className="text-xl  font-medium tracking-tight leading-none">
             {item}
           </p>
         ))}
 
         <a href="" className="start flex justify-center items-center gap-2">
-          <div className="px-5 py-2 rounded-full border-[2px] border-zinc-800 font-light text-md uppercase">
+          <div className="px-5 py-2 rounded-full border-[2px] border-zinc-800 font-medium text-md uppercase">
             Start the project
           </div>
           <div className="w-10 h-10 rounded-full flex items-center justify-center border-[2px] border-zinc-800">
