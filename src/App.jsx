@@ -6,7 +6,7 @@ import About from './components/About'
 
 const App = () => {
   return (
-    <div className='w-full h-screen text-black'>
+    <div className='w-full h-screen text-black font-["Neue_Montreal"]'>
       <Navbar />
       <LandingPage />
       <Marquee />
