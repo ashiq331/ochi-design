@@ -2,7 +2,7 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <div className="w-full py-10 bg-[#f4f4f4]">
+    <div className="w-full py-10 bg-[#f4f4f4] z-50">
       <div className="w-full px-20">
         <h1 className="text-[4vw] font-extralight tracking-tight  border-b-[1px] border-zinc-300 pb-10">
           Featured Projects

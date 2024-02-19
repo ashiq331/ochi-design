@@ -5,8 +5,10 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/eyes'
 import Featured from './components/Featured'
+import LocomotiveScroll from 'locomotive-scroll';
 
 const App = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full h-screen text-black font-["Neue_Montreal"]'>
       <Navbar />

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Eyes = () => {
   return (
-    <div className='eyes w-full h-screen  flex items-center justify-center'>
-            <h1 className='text-[10vw] font-bold'>Updating...</h1>
+    <div data-scroll data-scroll-speed="-0.3"  className='eyes w-full h-screen  flex items-center justify-center -z-10 overflow-hidden'>   
+    <h1>Updating..</h1>
     </div>
   )
 }
