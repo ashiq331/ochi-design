@@ -7,6 +7,7 @@ import Eyes from './components/eyes'
 import Featured from './components/Featured'
 import LocomotiveScroll from 'locomotive-scroll';
 
+
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
@@ -17,7 +18,6 @@ const App = () => {
       <About />
       <Eyes />
       <Featured />
-
     </div>
   )
 }

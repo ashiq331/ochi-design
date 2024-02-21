@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-0.5"
+      data-scroll-speed="-0.4"
       className=" w-full h-auto pb-32 bg-white pt-1"
     >
       <div className="heading mt-52 px-20">
@@ -49,7 +49,7 @@ const LandingPage = () => {
           </p>
         ))}
 
-        <a href="" className="start flex justify-center items-center gap-2">
+        <a href="" className=" start flex justify-center items-center gap-2">
           <div className="px-5 py-2 rounded-full border-[2px] border-zinc-800 font-medium text-md uppercase">
             Start the project
           </div>

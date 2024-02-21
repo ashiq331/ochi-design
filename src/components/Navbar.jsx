@@ -35,9 +35,17 @@ const Navbar = () => {
       </div>
 
       <div className="links flex gap-10">
-        {["Services", "Our Works", "About Us", "Insights", "Contact"].map((item, index) => (
-            <a href="" key={index} className={`text-lg capitalize font-light ${index === 4 && "ml-32"} `}>{item}</a>
-        ))}
+        {["Services", "Our Works", "About Us", "Insights", "Contact"].map(
+          (item, index) => (
+            <a
+              href=""
+              key={index}
+              className={`group transition-all duration-600 ease-in-out text-lg capitalize font-light `}
+            >
+              <span className={`bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] bg-no-repeat group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out ${index === 4 && "ml-32"}`}>{item}</span>
+            </a>
+          )
+        )}
       </div>
     </div>
   );
